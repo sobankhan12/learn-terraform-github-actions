@@ -15,7 +15,7 @@ terraform {
     organization = "soban252"
 
     workspaces {
-      name = "ws-ryfS9EH75tcKu6LJ"
+      name = "latest-configuration"
     }
   }
 }
