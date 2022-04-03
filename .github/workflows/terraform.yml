@@ -1,4 +1,4 @@
-name: "Terraform1"
+name: "Terraform"
 
 on:
   push:
@@ -73,4 +73,5 @@ jobs:
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        
         run: terraform apply -auto-approve
