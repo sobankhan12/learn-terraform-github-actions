@@ -15,7 +15,7 @@ terraform {
     organization = "soban252"
 
     workspaces {
-      name = "latest-configuration"
+      name = "learn-terraform-github-actions"
     }
   }
 }
